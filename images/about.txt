@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Sassy Frass
+- Font Author: Copyright 2008 The Sassy Frass Project Authors (https://github.com/googlefonts/sassy-frass)
+- Font Source: http://fonts.gstatic.com/s/sassyfrass/v3/LhWhMVrGOe0FLb97BjhsE99dGNWQg_am.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
