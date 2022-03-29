@@ -7,16 +7,73 @@
     <script src="https://kit.fontawesome.com/f1f2235153.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@1,400;1,500&family=Sassy+Frass&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/normalize.css">
+    <script src="https://kit.fontawesome.com/f1f2235153.js" crossorigin="anonymous"></script>
     <title>Sofies Portfolio</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
 </head>
 <body>
+    <header>
+        <div class="container-header">
+            <div class="nav-logo-web">
+            <img class="logo-web" src="images/sp-logo-web.png" alt="SP i en en guldfärgad cirkel" title="SP i en en guldfärgad cirkel">
+            </div>  
+            <div class="nav-logo-tab">
+                <img class="logo-tab" src="images/sp-logo-tab.png" alt="SP i en en guldfärgad cirkel" title="SP i en en guldfärgad cirkel">
+            </div> 
+            <div class="nav-logo-mob">
+                <img class="logo-mob" src="images/sp-logo-mob.png" alt="SP i en en guldfärgad cirkel" title="SP i en en guldfärgad cirkel">
+            </div> 
+            <!--<nav class="nav-bar">
+              
+                <!--<div class="nav-top">
+                <ul class="ul">
+                   <a class="a" href="#">About</a>
+                   <a class="a" href="#">Education</a>
+                   <a class="a" href="#">Portfolio</a>
+                   <a class="a" href="#">Contact</a>
+                </ul>
+                </div>
+             </nav>-->
+        <nav class="topnav" id="nav-b">
+            <div class="nav-top">
+            <ul class="nav-links">
+                <li><a class="a" herf="#">About</a></li>
+                <li><a class="a" herf="#">Education</a></li>
+                <li><a class="a" herf="#">Portfolio</a></li>
+                <li><a class="a" herf="#">Contact</a></li>
+                <a href="javascript:void(0);" class="icon" onclick="burger()">
+                 <i class="fa fa-bars"></i>
+                </a>
+            </ul>
+            </div>
+        </nav>
+        <script>
+            function burger() {
+              var burger = document.getElementById("nav-b");
+              if (burger.className === "topnav") {
+                burger.className += " responsive";
+              } else {
+                burger.className = "topnav";
+              }
+            }
+        </script>
+    
+        </div>
+    </header>
+    <main>
+        <div class="container-about">
+            <div class="img-about">
+            <img class="Jag-1" src="images/Jag-1.png" alt="Bild på mig" title="Bild på mig">
+            </div>
+        </div>
+    </main>
+    
     
 </body>
 </html>
