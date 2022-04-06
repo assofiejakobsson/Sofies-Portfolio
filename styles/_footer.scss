@@ -1,0 +1,39 @@
+.fotter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gelasio', serif;
+    font-weight: 400;
+    color: azure; 
+      
+}
+
+.icon-row {
+    
+    
+}
+
+.nav-icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+
+}
+
+.nav-appearance {
+   
+}
+
+.fab {
+    color: azure;
+    margin: 20px;
+}
+
+.fab:hover {
+    color: #D49B21;;
+}

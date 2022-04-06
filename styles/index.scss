@@ -1,10 +1,17 @@
+@import 'welcome';
+@import 'about';
+@import 'education';
+@import 'works';
+@import 'contact';
+@import 'footer';
+
 body {
     background-color: #000;
-    max-width: 1773px;
+    max-width: 1920px;
     width: 100%;
-    min-height: 3200px;
+    min-height: 5000px;
     margin: 20px;
-    
+    scrollbar-face-color: black;
 }
 
 .logo-web {
@@ -27,15 +34,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-   
-    /*background-color: #555;*/
     max-width: 1773px;
     width: 100%;
     min-height: 240px;
+    
 }
 
 .nav-top {
-    /*background-color: #555;*/
     max-width: 1773px;
     width: 100%;
     min-height: 185px;
@@ -76,19 +81,6 @@ body {
     
 }
 
-.img-about {
-    display: flex;
-    justify-content: flex-end;
-    
-}    
-
-.jag-1 {
-    display: flex;
-    justify-content: flex-end;
-    
-
-}
-
 
 
 
@@ -101,7 +93,10 @@ body {
 
 }
 
-@media screen and (min-width: 1080px) and (max-width: 1773px) {
+
+
+
+@media screen and (min-width: 1080px) and (max-width: 1920px) {
     .topnav.responsive a {
         display: none;
         
@@ -115,6 +110,9 @@ body {
     .icon {
         display: none;
 
+    }
+    .container-education {
+        font-size: larger;
     }
 }
 
@@ -156,6 +154,7 @@ body {
         max-width: 790px;
         width: 100%;
         min-height: 100px;
+       
 
     }
     .nav-logo-web {
@@ -168,54 +167,49 @@ body {
         border: none;
         max-width: 790px;
         width: 100%;
-        min-height: 100px;
+        min-height: aouto;
+        
         
         
         
     }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
     .nav-links .a{
-      display: none;
+        display: none;
+        
       
     }
     .topnav .icon{
         position: absolute;
+        top: 5%;
+        right: 10%;
+        
         
 
        
     }
     .topnav.responsive a {
-        position: absolute;
-        right: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        
     
     }
     .nav-b {
       
     }
-    
+    .a {
+        font-size: 16px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
    
-    
-    
-    
-      
-      
-
-/*.toggle-button {
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
-
-.bar {
-    height: 3px;
-    width: 100%;
-    color: azure;
-    border-radius: 10px;*/
 }

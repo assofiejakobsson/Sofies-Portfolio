@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="A portfolio showing a collection of my work and educations.">
     <script src="https://kit.fontawesome.com/f1f2235153.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,38 +22,33 @@
     <header>
         <div class="container-header">
             <div class="nav-logo-web">
-            <img class="logo-web" src="images/sp-logo-web.png" alt="SP i en en guldfärgad cirkel" title="SP i en en guldfärgad cirkel">
+            
+       
+            <a href="#welcome"><img class="logo-web" src="images/sp-logo-web.png" alt="SP in a gold-colored circle" title="SP i en en guldfärgad cirkel"></a>
             </div>  
             <div class="nav-logo-tab">
-                <img class="logo-tab" src="images/sp-logo-tab.png" alt="SP i en en guldfärgad cirkel" title="SP i en en guldfärgad cirkel">
+                <a href="#welcome"><img class="logo-tab" src="images/sp-logo-tab.png" alt="SP in a gold-colored circle" title="SP i en en guldfärgad cirkel"></a>
             </div> 
             <div class="nav-logo-mob">
-                <img class="logo-mob" src="images/sp-logo-mob.png" alt="SP i en en guldfärgad cirkel" title="SP i en en guldfärgad cirkel">
+                <a href="#welcome"><img class="logo-mob" src="images/sp-logo-mob.png" alt="SP in a gold-colored circle" title="SPin a gold-colored circle"></a>
             </div> 
-            <!--<nav class="nav-bar">
-              
-                <!--<div class="nav-top">
-                <ul class="ul">
-                   <a class="a" href="#">About</a>
-                   <a class="a" href="#">Education</a>
-                   <a class="a" href="#">Portfolio</a>
-                   <a class="a" href="#">Contact</a>
-                </ul>
-                </div>
-             </nav>-->
+        
+            
         <nav class="topnav" id="nav-b">
             <div class="nav-top">
             <ul class="nav-links">
-                <li><a class="a" herf="#">About</a></li>
-                <li><a class="a" herf="#">Education</a></li>
-                <li><a class="a" herf="#">Portfolio</a></li>
-                <li><a class="a" herf="#">Contact</a></li>
+                <li><a class="a" herf="#about">About</a></li>
+                <li><a class="a" herf="#education">Education</a></li>
+                <li><a class="a" herf="#My Works">My Work</a></li>
+                <li><a class="a" herf="#contact">Contact</a></li>
                 <a href="javascript:void(0);" class="icon" onclick="burger()">
                  <i class="fa fa-bars"></i>
                 </a>
             </ul>
             </div>
         </nav>
+       
+        
         <script>
             function burger() {
               var burger = document.getElementById("nav-b");
@@ -67,12 +63,140 @@
         </div>
     </header>
     <main>
-        <div class="container-about">
-            <div class="img-about">
-            <img class="Jag-1" src="images/Jag-1.png" alt="Bild på mig" title="Bild på mig">
+        <div class="welcome" id="welcome"> 
+            <div class="welcome-text">
+                <h1 class="title-welcome">Hi, there!
+                </h1>
+                <h2 class="h2-welcome">I'm Sofie Jakobsson and this is my portfolio.</h2>
+                <p class="p1-welcome">I'm a front end devoloper. And I love finding new solutions</p> 
+                <p>that make life and work easier.</p>
+
+            </div>
+            <div class="img-welcome">
+                <picture class="pic">
+                    <source media="(min-width:1080px)" srcset="images/Jag-1.png">
+                    <source media="(min-width:790px)" srcset="images/Jag-2.png">
+                    <source media="(min-width:790px)" srcset="images/Jag-4.png">   
+                    <img src="images/Jag-4.png" alt="picture of me" title="picture of me" style="width: auto;">
+                </picture>
+                
             </div>
         </div>
+        <div class="about" id="about">
+            <h2 class="h2-about">ABOUT ME</h2>
+            <p class="p-about1">gyftyf tydrtdr ttrsrtdcjtdrseraw wwwwawaeereare</p>
+
+        </div>
+        <div id="education"  class="education">
+            
+                <h2 class="h2-education">EDUCATION</h2>
+            <div class="container-education">
+                <div class="box-sundsgården">
+                <div class="text-sundsgården">
+                <h2>SUNDSGÅRDEN (2022)</h2>
+                <h3>FRONT END DEVELOPER</h3>
+                <ul class="ul-sundsgården">
+                    <li class="li-sundsgården">HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Figma</li>
+                    <li>Modern design libraries</li>
+                    <li>Modern frameworks</li>
+                    <li>Git/GitHub</li>
+                    <li>Visual Studios Code</li>
+                    <li>Programming techniques</li>
+                    <li>Agile work</li>
+                </ul>
+                </div>
+
+                </div>
+                <div class="box-universitet">
+                <div class="text-universitetet">
+                    <h2>UNIVERSITETET</h2>
+                    <h3>BEHAVIOR AND SOCIAL SCIENCES (2020-2022) </h3>
+                    <ul class="ul-universitetet">
+                        <li>SOCIOLOGI A (30 hp)</li>
+                        <li>SOCIOLOGI B (30 hp)</li>
+                        <li>PEDAGOGIK A (30 hp)</li>
+                        <li>Allmän civilrätt med juridikdidaktik (15 hp)</li>
+                        <li>Statsvetenskap A (7,5 hp)</li>
+                        <li>KOGNITIV PSYKOLOGI (7,5 hp)</li>
+                    </ul>
+                    </div>
+                
+                </div>
+                <div class="box-yrkeshögskola">
+                <div class="text-yrkeshögskola">
+                    <h2>YRKESHÖGSKOLA</h2>
+                    <h3>DEGREE IN BUSINESS DEVELOPER VISITING INDUSTRY (2018-2020)</h3>
+                    <ul class="ul-sundsgården">
+                        <li>BUSINESS ECONOMICS AND BUSINESS ACUMEN </li>
+                        <li>BUSINESS LAW </li>
+                        <li>BUSINESS DEVELOPMENT AND PROJECT MANAGEMENT</li>
+                        <li>BUSINESSENGLISH</li>
+                        <li>DIGITAL STRATEGY AND ANALYSIS</li>
+                        <li>YIELDMANAGEMENT AND PRICING</li>
+                        <li>MARKETING AND SALES</li>
+                        <li>PRODUCT DEVELOPMENT AND PACKAGING</li>
+                        <li>THE HOSPITALITY INDUSTRY AND THE EXPERIENCE INDUSTRY</li>
+                    </ul>
+                    </div>
+                
+                </div>
+            </div>
+            </div>
+        <div id="My Works" class="my-work">
+            <div class="box-bhromaon">
+                <div class="text-bhromaon">
+                   <h2>MY WORK</h2>
+                   <h3>Responsiv webbsida</h3>
+                
+                    <a href="Bhromaon/"><img class="bhromaon" src="images/bhromaon2.png" alt="screenshot of bhromaon school project"></a>
+                </div>
+            
+            </div>
+            <div class="box-bhromaon">
+                <div class="text-bhromaon">
+                   <h2>Bhromaon</h2>
+                   <h3>Responsiv webbsida</h3>
+                
+                   <a><img class="" src="" alt=""></a>
+                </div>
+            
+            </div>
+        </div>
+        <div id="contact" class="contact">
+            <div class="text-contact">
+            <h2 class="title-contact">CONTACT ME</h2>
+            <p></p>
+            </div>
+            <form class="form-contact" method="post" action="mailto:s89j@live.se" enctype="text/plain">
+                <div class="input-name-email">
+                    <input class="name" type="text" id="your-name" name="name" placeholder="Your Name..." required>
+                    <input class="email" type="email" id="email" name="email" placeholder="Your Email..." required>
+                </div>
+                <div class="form-subject-message-btn">  
+                    <input class="subject" type="text" id="your-subject" name="subject" placeholder="Subject...">
+                    <textarea class="message" name="message" id="message" placeholder="Leave your message..." required></textarea>
+                    <input class="button" type="submit" name="submit" value="SEND MESSAGE">
+                </div> 
+            </form>
+        </div>
     </main>
+    <footer>
+        <div class="footer">
+        <div class="footer-text">
+        <p>Created by Sofie Jakobsson 2022</p>
+        </div>
+        <div class="icon-row">
+            <ul class="nav-icon">
+                <li><a class="nav-appearance" href="https://github.com/assofiejakobsson"><i class="fab fa-github"></i></a></li>
+                <li><a class="nav-appearance" href="https://twitter.com/Jakobsson9Sofie"><i class="fab fa-twitter"></i></a></li>
+                <li><a class="nav-appearance" href="https://www.linkedin.com/feed/"> <i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+        </div>
+    </footer>
     
     
 </body>
