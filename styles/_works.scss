@@ -1,6 +1,42 @@
 .my-work {
+    
     max-width: 1920px;
     width: 100%;
     min-height: 1100px;
     border-bottom: 2px solid #D49B21;
+}
+.title-my-work {
+    padding: 50px;
+    font-family: 'Gelasio', serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration-line: underline;
+    color: azure;
+}
+
+
+.container-my-work {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-bhromaon {
+    color: azure;
+}
+
+.box-bhromaon {
+    
+    max-width: 620px;
+    width: 100%;
+    min-height: 450px;
+    border: 2px solid #D49B21;
+}
+
+.box-genesis {
+    
+    max-width: 620px;
+    width: 100%;
+    min-height: px;
+    border: 2px solid #D49B21;
 }
