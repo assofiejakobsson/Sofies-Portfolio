@@ -6,13 +6,28 @@
 @import 'footer';
 
 body {
-    background-color: #000;
+   background-color: #000;
     max-width: 1920px;
     width: 100%;
-    min-height: 4820px;
+    min-height: 4000px;
     margin: 20px;
     scrollbar-face-color: black;
 }
+
+
+
+  body::-webkit-scrollbar {
+    width: 15px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #000;        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #D49B21;   
+    border-radius: 20px;    
+  }
 
 .logo-web {
     margin: 20px;
@@ -31,6 +46,9 @@ body {
 }*/
 
 .container-header {
+    
+  position: sticky;
+  top: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -66,6 +84,7 @@ body {
     list-style: none;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 20px;
    
     
 }
@@ -86,12 +105,29 @@ body {
 
 .fa {
     color: azure;
-    font-size: larger;
+    font-size: 30px;
 }
 
 .fa:hover {
     color: #D49B21;
 
+}
+
+@media screen and (min-width: 1920px) and (max-width: 5000px) {
+    
+    .nav-logo-tab {
+        display: none;
+    }
+    .nav-logo-mob {
+        display: none;
+    }
+    .icon {
+        display: none;
+
+    }
+    .nav-logo-footer-mob {
+        display: none;
+    }
 }
 
 
@@ -114,6 +150,9 @@ body {
     }
     .container-education {
         font-size: larger;
+    }
+    .nav-logo-footer-mob {
+        display: none;
     }
 }
 
@@ -143,6 +182,10 @@ body {
     .a {
         font-size: 26px;
     }
+    .nav-logo-footer-mob {
+        display: none;
+    }
+
 
 }  
 
@@ -204,13 +247,14 @@ body {
         
     
     }
-    .nav-b {
-      
-    }
+    
     .a {
         font-size: 16px;
         margin-right: 10px;
         margin-left: 10px;
+    }
+    .nav-logo-footer-desc {
+        display: none;
     }
    
 }

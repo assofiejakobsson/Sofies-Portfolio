@@ -15,6 +15,10 @@
     text-align: center;
 }
 
+.title-contact {
+    text-decoration: underline #D49B21;
+}
+
 .input-name-email {
     display: flex;
     justify-content: center;
@@ -68,6 +72,32 @@
 .button:hover {
     background-color: #D49B21;
 }
+
+@media screen and (min-width: 791px) and (max-width: 1080px) {
+    
+    
+    .title-contact {
+        font-size: 26px;
+        
+    }
+    
+    
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1920px) {
+    
+    
+    .title-contact {
+        font-size: 26px;
+        
+    }
+    
+    
+}
+
+
+
+   
 
 
 

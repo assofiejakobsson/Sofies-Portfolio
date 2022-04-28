@@ -6,12 +6,12 @@
     border-bottom: 2px solid #D49B21;
 }
 .title-my-work {
-    padding: 50px;
+    padding-top: 50px;
     font-family: 'Gelasio', serif;
     display: flex;
     flex-direction: column;
     text-align: center;
-    text-decoration-line: underline;
+    text-decoration: underline #D49B21;
     color: azure;
 }
 
@@ -32,6 +32,8 @@
 
 .box-bhromaon {
     margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
     max-width: 620px;
     width: 100%;
     min-height: 450px;
@@ -45,47 +47,189 @@
     } 
 }
 
-.box-genesis {
+.box-ges {
     margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     max-width: 620px;
     width: 100%;
-    min-height: px;
+    min-height: 450px;
     border: 2px solid #D49B21;
+    .text-ges {
+        font-family: 'Gelasio', serif;
+        font-weight: 400;
+        color: azure;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .img-ges {
+        display: flex;
+        justify-content: center;
+    }
+    .img-ges:hover {
+        
+    } 
 }
 
-@media screen and (min-width: 320px) and (max-width: 790px) {
-    .container-my-work {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin-right: 20px;
-        max-width: 790px;
-        width: 100%;
-        min-height: 1400px;
-
-        
-    }
-    
+@media screen and (min-width: 1081px) and (max-width: 1920px) {
     .box-bhromaon {
-        display: flex;
-        justify-content: center;
-        max-width: 790px;
-        width: 100%;
-        min-height: 360px;
-        border: 2px solid #D49B21;
-        margin-bottom: 50px;
-        
-        
-    }
-    
-    .box-genesis {
-        display: flex;
-        justify-content: center;
         max-width: 700px;
         width: 100%;
-        min-height: 360px;
+        min-height: 500px;
+    }
+    .bhromaon-mob {
+        display: none;
+
+    }
+    .bhromaon-tab {
+        display: none;
+    }
+    .box-ges {
+        max-width: 700px;
+        width: 100%;
+        min-height: 500px;
+    }
+    .ges-mob {
+        display: none;
+
+    }
+    .ges-tab {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1460px) {
+    .box-ges {
+       margin-bottom: 45px;
+       margin-right: 20px;
+
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1080px) {
+    .bhromaon-mob {
+        display: none;
+
+    }
+    .bhromaon-desc {
+        display: none;
+    }
+    .ges-mob {
+        display: none;
+
+    }
+    .ges-desc {
+        display: none;
+    }
+    .text-bhromaon {
         margin-top: 50px;
-        border: 2px solid #D49B21;
+        margin-bottom: 50px;
+    }
+    .text-ges {
+        
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    
+    .bhromaon-tab {
+        display: none;
+
+    }
+    .bhromaon-desc {
+        display: none;
+    }
+    .ges-tab {
+        display: none;
+
+    }
+    .ges-desc {
+        display: none;
+    }
+    .text-bhromaon {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .text-ges {
+        
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+   
+}
+
+@media screen and (min-width: 791px) and (max-width: 1080px) {
+    
+    
+    .title-my-work {
+        font-size: 26px;
         
     }
-}    
+    .text-bhromaon {
+        font-size: medium;
+    }
+    .text-ges {
+        font-size: medium;
+    }
+    
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1920px) {
+    
+    
+    .title-my-work {
+        font-size: 26px;
+        
+    }
+    .text-bhromaon {
+        font-size: large;
+    }
+    .text-ges {
+        font-size: large;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1920px) and (max-width: 5000px) {
+    
+    .bhromaon-mob {
+        display: none;
+
+    }
+    .bhromaon-tab {
+        display: none;
+    }
+    .ges-mob {
+        display: none;
+
+    }
+    .ges-tab {
+        display: none;
+    }
+    .title-my-work {
+        font-size: 26px;
+        
+    }
+    .text-bhromaon {
+        font-size: large;
+    }
+    .text-ges {
+        font-size: large;
+    }
+    .box-bhromaon {
+        max-width: 700px;
+        width: 100%;
+        min-height: 500px;
+    }
+    .box-ges {
+        max-width: 700px;
+        width: 100%;
+        min-height: 500px;
+    }
+    
+}

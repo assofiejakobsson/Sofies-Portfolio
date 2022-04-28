@@ -16,11 +16,39 @@
 
 .h2-about {
     text-align: center;
-    text-decoration-line: underline;
-    
+    text-decoration: underline #D49B21;
     
 }
 
-.about1 {
-    margin: 20px;
+.p-about1 {
+    
 }
+
+
+
+@media screen and (min-width: 791px) and (max-width: 1080px) {
+    
+    
+    .h2-about {
+        font-size: 26px;
+        
+    }
+    .p-about1 {
+        font-size: px;
+    }
+    
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1920px) {
+    
+    
+    .h2-about {
+        font-size: 26px;
+        
+    }
+    .p-about1 {
+        font-size: px;
+    }
+    
+}
+
