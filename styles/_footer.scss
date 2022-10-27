@@ -17,13 +17,16 @@
     
 }
 .nav-logo-footer-desc {
-    display: flex;
-    justify-self: flex-start;
-    
-    margin-top: 50px;
-    margin-left: 20px; 
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
 }
 
+.fotter-icone-text {
+    display: flex;
+    justify-content: center;
+}
 
 
 .fotter-icone-text {
@@ -49,6 +52,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 
 .nav-icon {
@@ -58,22 +62,27 @@
 
 }
 
-.nav-appearance {
-   
+li.icon-row {
+    display: flex;
+   justify-content: center;
 }
 
 .fab {
     color: azure;
     margin: 20px;
-    font-size: 30px;
+    padding-right: 20px;
+    font-size: 42px;
+    
 }
 
 .fab:hover {
-    color: #D49B21;;
+    color: #D49B21;
 }
 
 @media screen and (min-width: 1920px) and (max-width: 3000px) {
-    
+    .fotter-icone-text {
+        padding-right: 120px;
+    }
     .nav-logo-footer-mob {
         display: none;
     }
@@ -83,6 +92,10 @@
 
 
 @media screen and (min-width: 1080px) and (max-width: 1920px) {
+    .fotter-icone-text {
+        padding-right: 120px;
+    }
+    
     .nav-logo-footer-mob {
         display: none;
     }
@@ -90,6 +103,9 @@
 
 
 @media screen and (min-width: 790px) and (max-width: 1080px) {
+    .fotter-icone-text {
+        padding-right: 120px;
+    }
 
     .nav-logo-footer-mob {
         display: none;

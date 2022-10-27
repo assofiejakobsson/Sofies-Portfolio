@@ -5,7 +5,7 @@
     color: azure;
     max-width: 1920px;
     max-width: 100%;
-    min-height: 460px;
+    
     border-bottom: 2px solid #D49B21;
 
     
@@ -17,10 +17,20 @@
 
 .title-contact {
     text-decoration: underline #D49B21;
-    text-underline-offset: 5px;
+    text-underline-offset: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.input-name-email {
+a.email{
+    text-decoration: none;
+}
+
+li.email {
+    list-style-type: none;
+}
+
+/*.input-name-email {
     display: flex;
     justify-content: center;
     .name {
@@ -94,7 +104,7 @@
     }
     
     
-}
+}*/
 
 
 
