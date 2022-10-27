@@ -2,22 +2,21 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    
-    
-   /* border-bottom: 2px solid #D49B21;*/
+
 }
 
 .title-my-work {
     padding-top: 75px;
     padding-bottom: 50px;
     font-family: 'Gelasio', serif;
-    
     text-decoration: underline #D49B21;
     text-underline-offset: 10px;
     color: azure;
 }
 
-.carousel-caption d-none d-md-block, h5, p {
+.carousel-caption d-none d-md-block,
+h5,
+p {
     background-color: rgba(0, 0, 0, 0.486);
 }
 
@@ -32,23 +31,6 @@ span.carousel-control-next-icon:hover {
     font-weight: 400;
     color: azure;
     text-align: center;
-}
-
-.box-Math {
-    margin-top: 50px;
-    margin-right: 20px;
-    margin-left: 20px;
-    max-width: 620px;
-    width: 100%;
-    min-height: 450px;
-    border: 2px solid #D49B21;
-    .img-Math {
-        display: flex;
-        justify-content: center;
-    }
-    .img-Math:hover {
-        
-    } 
 }
 
 

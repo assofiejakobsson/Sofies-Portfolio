@@ -1,28 +1,24 @@
 .education {
     font-weight: 400;
     width: 100%;
-    
-/* border-top: 2px solid #D49B21;*/
-    
+
 }
 
 .container-education {
 
     font-family: 'Gelasio', serif;
-    
     color: azure;
     line-height: 20px;
-    /*border-bottom: 2px solid #D49B21;*/
-   display: flex;
-   justify-content: space-around;
-   flex-wrap: wrap;
-   margin-bottom: 50px;
-   
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
 }
 
 
 .h2-education {
-    
+
     padding-top: 50px;
     padding-bottom: 15px;
     font-family: 'Gelasio', serif;
@@ -32,19 +28,17 @@
     text-decoration: underline #D49B21;
     text-underline-offset: 10px;
     color: azure;
-    
-    
-    
+
 }
 
 ul {
     list-style-type: circle;
-    
+
 }
 
 .ul-code-institute {
     line-height: 1;
-    
+
 }
 
 .ul-sundsgården {
@@ -62,31 +56,25 @@ ul {
 
 
 .box-code-institute {
-    
     max-width: 620px;
     width: 100%;
-    
     display: flex;
     flex-wrap: wrap;
-    
     border: 2px solid #D49B21;
     padding: 20px;
     margin: 50px;
-    
+
 }
 
 .box-sundsgården {
-   
     max-width: 620px;
     width: 100%;
-    
     display: flex;
     flex-wrap: wrap;
-    
     border: 2px solid #D49B21;
     padding: 20px;
     margin: 50px;
-    
+
 }
 
 .box-universitet {
@@ -94,7 +82,6 @@ ul {
     flex-wrap: wrap;
     max-width: 620px;
     width: 100%;
-    
     border: 2px solid #D49B21;
     padding: 20px;
     margin: 50px;
@@ -105,126 +92,81 @@ ul {
     flex-wrap: wrap;
     max-width: 620px;
     width: 100%;
-    
     border: 2px solid #D49B21;
     padding: 20px;
-    
     margin: 50px;
-    
-    
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 790px) {
+
     .container-education {
         display: flex;
-        
         flex-wrap: wrap;
         margin-right: 20px;
         max-width: 790px;
         width: 100%;
-        
 
-        
     }
-    
+
     .box-code-institute {
         display: flex;
-        
         max-width: 500px;
         width: 100%;
-        
         border: 2px solid #D49B21;
-        
         margin-right: 20px;
         margin-left: 20px;
-        
-        
+
     }
 
     .box-sundsgården {
         display: flex;
-        
         max-width: 500px;
         width: 100%;
-        
         border: 2px solid #D49B21;
-        
         margin-right: 20px;
         margin-left: 20px;
-        
-        
+
     }
-    
+
     .box-universitet {
         display: flex;
         justify-content: flex-start;
         max-width: 500px;
         width: 100%;
-        
-        
         border: 2px solid #D49B21;
         margin-right: 20px;
         margin-left: 20px;
-        
+
     }
+
     .box-yrkeshögskola {
         display: flex;
-        
-        
         max-width: 500px;
         width: 100%;
-        
         border: 2px solid #D49B21;
         margin-right: 20px;
         margin-left: 20px;
     }
-    .text-universitet {
-        
-    }
 
 }
 
+/*@media screen and (min-width: 791px) and (max-width: 1080px) {
 
-@media screen and (min-width: 791px) and (max-width: 1080px) {
-    
-    
-    .box-sundsgården {
-        
-        
-    }
-    
-    .box-universitet {
-       
-        
-    }
-    .box-yrkeshögskola {
-        
-    }
-    .h2-education {
-        
-    }
-}
+    .box-sundsgården {}
+
+    .box-universitet {}
+
+    .box-yrkeshögskola {}
+
+    .h2-education {}
+}*/
 
 @media screen and (min-width: 1081px) and (max-width: 3000px) {
-    
-    
-    .box-sundsgården {
-        
-        
-    }
-    
-    .box-universitet {
-       
-        
-    }
+
     .box-yrkeshögskola {
-        
         margin-bottom: 0px;
     }
-    .h2-education {
-        
-    }
+
+
 }
-
-
-

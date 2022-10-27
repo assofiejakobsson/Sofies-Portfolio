@@ -7,15 +7,15 @@
     justify-self: flex-start;
 }
 
-.nav-logo-footer-mob{
+.nav-logo-footer-mob {
     display: flex;
     justify-self: flex-start;
-    
     margin-top: 50px;
     margin-left: 20px;
-    
-    
+
+
 }
+
 .nav-logo-footer-desc {
     float: left;
     margin-top: 25px;
@@ -25,15 +25,7 @@
 
 .fotter-icone-text {
     display: flex;
-    justify-content: center;
-}
-
-
-.fotter-icone-text {
-    display: flex;
     flex-direction: column;
-   
-    
 }
 
 .footer-text {
@@ -41,30 +33,22 @@
     justify-content: center;
     font-family: 'Gelasio', serif;
     font-weight: 400;
-    color: azure; 
+    color: azure;
     margin-top: 20px;
     font-size: 18px;
-    
-      
+
 }
 
 .icon-row {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
-}
-
-.nav-icon {
-    
-    
-    
 
 }
 
 li.icon-row {
     display: flex;
-   justify-content: center;
+    justify-content: center;
 }
 
 .fab {
@@ -72,17 +56,20 @@ li.icon-row {
     margin: 20px;
     padding-right: 20px;
     font-size: 42px;
-    
+
 }
 
 .fab:hover {
     color: #D49B21;
 }
 
+
 @media screen and (min-width: 1920px) and (max-width: 3000px) {
+
     .fotter-icone-text {
         padding-right: 120px;
     }
+
     .nav-logo-footer-mob {
         display: none;
     }
@@ -92,10 +79,11 @@ li.icon-row {
 
 
 @media screen and (min-width: 1080px) and (max-width: 1920px) {
+
     .fotter-icone-text {
         padding-right: 120px;
     }
-    
+
     .nav-logo-footer-mob {
         display: none;
     }
@@ -103,6 +91,7 @@ li.icon-row {
 
 
 @media screen and (min-width: 790px) and (max-width: 1080px) {
+
     .fotter-icone-text {
         padding-right: 120px;
     }
@@ -112,27 +101,24 @@ li.icon-row {
     }
 
 
-}  
+}
 
 
 @media screen and (min-width: 0px) and (max-width: 790px) {
+
     .nav-logo-footer-desc {
         display: none;
     }
 
-    
-   
+
 }
 
 
 @media screen and (min-width: 0px) and (max-width: 420px) {
+
     .fab {
         padding-left: 20px;
     }
 
-    
-   
+
 }
-
-
-

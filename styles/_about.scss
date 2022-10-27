@@ -9,17 +9,15 @@
     border-top: 2px solid #D49B21;
     font-family: 'Gelasio', serif;
     font-weight: 400;
-    
     width: 100%;
     margin-bottom: 50px;
-   
-    
+
 }
 
 .about p {
-    max-width: 55ch; 
-    justify-content: center; 
-    
+    max-width: 55ch;
+    justify-content: center;
+
 }
 
 .h2-about {
@@ -29,7 +27,6 @@
     padding-top: 50px;
     padding-bottom: 50px;
 
-    
 }
 
 .p-about1 {
@@ -40,32 +37,21 @@
 
 
 @media screen and (min-width: 791px) and (max-width: 1080px) {
-    
-    
-    .h2-about {
-        
-        
-    }
+
     .p-about1 {
         font-size: px;
         margin-left: 100px;
         margin-right: 100px;
     }
-    
+
 }
 
 @media screen and (min-width: 1081px) and (max-width: 1920px) {
-    
-    
-    .h2-about {
-        
-        
-    }
+
     .p-about1 {
         font-size: px;
         margin-left: 150px;
         margin-right: 150px;
     }
-    
-}
 
+}

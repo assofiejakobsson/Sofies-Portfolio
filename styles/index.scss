@@ -8,30 +8,26 @@
 
 
 body {
-   background-color: #000;
+    background-color: #000;
     max-width: 3000px;
     width: 100%;
     font-size: 160%;
-    
-    
-   
+
     scrollbar-face-color: black;
 }
 
+body::-webkit-scrollbar {
+    width: 15px;
+}
 
+body::-webkit-scrollbar-track {
+    background: #000;
+}
 
-  body::-webkit-scrollbar {
-    width: 15px;               
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: #000;        
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: #D49B21;   
-    border-radius: 20px;    
-  }
+body::-webkit-scrollbar-thumb {
+    background-color: #D49B21;
+    border-radius: 20px;
+}
 
 .logo-web {
     margin: 20px;
@@ -41,17 +37,13 @@ body {
     margin: 20px;
 }
 
-.nav-logo-mob {
-    height: 140px;
-}
-
 .logo-mob {
     margin: 20px;
 }
 
-/*.logo:hover {
-    transform: 
-}*/
+.nav-logo-mob {
+    height: 140px;
+}
 
 header {
     background-color: #000;
@@ -59,15 +51,13 @@ header {
     top: 0;
 }
 
-
 .container-header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1773px;
     width: 100%;
-    
-    
+
 }
 
 .nav-top {
@@ -80,14 +70,12 @@ header {
     align-items: center;
     flex-direction: row;
     border-bottom: 2px solid #D49B21;
-    
     list-style-type: none;
     text-align: center;
 }
 
 a.icon {
     text-decoration: none;
-    
 }
 
 .a {
@@ -102,8 +90,7 @@ a.icon {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-   
-    
+
 }
 
 .a:hover {
@@ -114,18 +101,14 @@ a.icon {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    
-    
-    
+
 }
 
 ul.nav-links {
     float: right;
     margin-right: 65px;
-    
+
 }
-
-
 
 .fa {
     display: flex;
@@ -134,30 +117,30 @@ ul.nav-links {
     font-size: 42px;
     text-decoration: none;
     margin-top: 50px;
-    
-    
+
 }
 
 .fa:hover {
     color: #D49B21;
-    
 
 }
 
 
-
 @media screen and (min-width: 1920px) and (max-width: 5000px) {
-    
+
     .nav-logo-tab {
         display: none;
     }
+
     .nav-logo-mob {
         display: none;
     }
+
     .icon {
         display: none;
 
     }
+
     .nav-logo-footer-mob {
         display: none;
     }
@@ -167,24 +150,29 @@ ul.nav-links {
 
 
 @media screen and (min-width: 1080px) and (max-width: 3000px) {
+
     .topnav.responsive a {
         display: none;
-        
+
     }
+
     .nav-logo-tab {
         display: none;
     }
+
     .nav-logo-mob {
         display: none;
     }
+
     .icon {
         display: none;
 
     }
-    
+
     .nav-logo-footer-mob {
         display: none;
     }
+
     .container-header {
         border-bottom: none;
     }
@@ -192,42 +180,50 @@ ul.nav-links {
 
 
 @media screen and (min-width: 790px) and (max-width: 1080px) {
-   
+
     .topnav.responsive a {
         display: none;
-        
+
     }
+
     .nav-logo-web {
         display: none;
     }
+
     .nav-logo-mob {
         display: none;
     }
+
     .icon {
         display: none;
 
     }
+
     .nav-top {
         max-width: 1080px;
         width: 100%;
         min-height: 140px;
-        
+
     }
+
     .a {
         font-size: 26px;
     }
+
     .nav-logo-footer-mob {
         display: none;
     }
+
     .container-header {
         border-bottom: none;
     }
 
 
-}  
+}
 
 
 @media screen and (min-width: 0px) and (max-width: 790px) {
+
     .container-header {
         display: flex;
         justify-content: space-around;
@@ -235,24 +231,23 @@ ul.nav-links {
         max-width: 790px;
         width: 100%;
         min-height: 100px;
-       
 
     }
+
     .nav-logo-web {
         display: none;
     }
+
     .nav-logo-tab {
         display: none;
     }
+
     .nav-top {
         border: none;
         max-width: 790px;
         width: 100%;
         min-height: 80px;
-        
-        
-        
-        
+
     }
 
     .nav-links {
@@ -262,36 +257,30 @@ ul.nav-links {
         justify-content: flex-end;
     }
 
-    .nav-links .a{
+    .nav-links .a {
         display: none;
-        
-      
     }
-    .topnav .icon{
+
+    .topnav .icon {
         position: absolute;
         top: 5%;
         right: 10%;
-        
-        
-
-       
     }
+
     .topnav.responsive a {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        
-        
-    
     }
-    
+
     .a {
         font-size: 16px;
         margin-right: 10px;
         margin-left: 10px;
     }
+
     .nav-logo-footer-desc {
         display: none;
     }
-   
+
 }
